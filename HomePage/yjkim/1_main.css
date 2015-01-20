@@ -9,20 +9,48 @@ html, body {
 }
 
 #who {	
+	position: relative;
 	height: 100%;
-	float:left;width:50%;
+	float:left; width:50%;
 	text-align: center;
-	font-size: 30px;
-	right: 50%;
+	font-size: 100px;
 	background-color: #56E37B;
 }
-#what > a {
+
+#who > a {
+	width: 100%;
 	height: 100%;
+	color: #ffffff;
+	text-decoration: none;
+	display:inline-block;
 }
+
+#who > a > p {
+	position: absolute;
+	width: 100%;
+	top:40%;
+	text-align: right;right:100px;
+}
+
+
 #what {	
+	position: relative;
 	height: 100%;
+	float:left; width:50%;
+	font-size: 100px;
 	background-color: #f0f0f0;
-	float:left;width:50%;
-	text-align: center;
-	font-size: 30px;
+}
+
+#what > a {
+	width: 100%;
+	height: 100%;
+	color: #2e2e2e;
+	text-decoration: none;
+	display: inline-block;
+}
+#what > a > p{
+	position: absolute;
+	width: 100%;
+	top:40%;
+	text-align: left;left:100px;
 }
