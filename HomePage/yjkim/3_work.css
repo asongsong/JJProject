@@ -1,6 +1,7 @@
 @charset "utf-8";
 body{
 	background-color: #56E37B;
+	position: relative;
 }
 h1 {
 	text-align: center;
@@ -10,10 +11,42 @@ h1 {
 	margin-bottom: 120px;
 }
 .card {
+	position: relative;
 	float: left;
 	width: 400px;
 	height: 300px;
 	margin: 10px;
 	background-color: #ffffff;
-	border-radius: 10px
+	border-radius:10px;
+}
+
+.card > * {
+	height: 80%;
+	width: 100%;
+}
+
+.card > p {
+	text-align: center;
+	padding-top: center;
+	color:#2e2e2e;
+	font-size: 20px;
+}
+
+.contents {
+	border-radius: 10px 10px 00px 00px;
+}
+
+.thumb_1 {
+	background-image: url("file:///C:/Users/yunjin/Documents/GitHub/JJProject/HomePage/yjkim/pic_1.png");
+	background-size: cover;
+}
+
+.thumb_2 {
+	background-image: url("file:///C:/Users/yunjin/Documents/GitHub/JJProject/HomePage/yjkim/pic_2.png");
+	background-size: cover;
+}
+
+.thumb_3 {
+	background-image: url("file:///C:/Users/yunjin/Documents/GitHub/JJProject/HomePage/yjkim/pic_3.jpg");
+	background-size: cover;
 }

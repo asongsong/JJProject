@@ -29,9 +29,9 @@ html, body {
 	position: absolute;
 	width: 100%;
 	top:40%;
-	text-align: right;right:100px;
+	text-align: right;
+	right:100px;
 }
-
 
 #what {	
 	position: relative;
@@ -48,9 +48,10 @@ html, body {
 	text-decoration: none;
 	display: inline-block;
 }
+
 #what > a > p{
 	position: absolute;
-	width: 100%;
-	top:40%;
-	text-align: left;left:100px;
+	top:40%; 
+	text-align: left; 
+	left:100px;
 }
